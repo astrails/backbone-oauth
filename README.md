@@ -1,10 +1,6 @@
----
-
 #### Note
 
 **Backbone-OAuth has been discontinued and is no longer maintained. Try [amoshg/backbone-oauth-1.0a](https://github.com/amoshg/backbone-oauth-1.0a) or [bytespider/jsOAuth](https://github.com/bytespider/jsOAuth) instead or [read about backbone.js and OAuth here](http://dailyjs.com/2012/12/13/backbone-tutorial-3/).**
-
----
 
 backbone-oauth V0.1
 ===================
