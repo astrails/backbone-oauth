@@ -1,11 +1,15 @@
-#### Note
+### Note
+
+- - -
 
 **Backbone-OAuth has been discontinued and is no longer maintained. Try [amoshg/backbone-oauth-1.0a](https://github.com/amoshg/backbone-oauth-1.0a) or [bytespider/jsOAuth](https://github.com/bytespider/jsOAuth) instead or [read about backbone.js and OAuth here](http://dailyjs.com/2012/12/13/backbone-tutorial-3/).**
+
+- - -
 
 backbone-oauth V0.1
 ===================
 
-This simple OAuth 2.0 plugin for [Backbone.js](http://backbone.js) provides an OAuth class that handles client-side authentication with OAuth providers such as Facebook or Google.
+Backbone-OAuth has been discontinued and is no longer maintained, but this simple OAuth 2.0 plugin for [Backbone.js](http://backbone.js) v0.9.2 provides an OAuth class that handles client-side authentication with OAuth providers such as Facebook or Google.
 
 The most simple use case would be something like this:
 
