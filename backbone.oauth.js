@@ -60,7 +60,11 @@
       if (!this.auth_url) throw new Error('No auth url given.');
       if (!this.redirect_url) throw new Error('No redirect url given.');
 
-      this.dialog = window.open(this.setupAuthUrl());    
+      if (this.usePopup) {
+        this.dialog = window.open(this.setupAuthUrl());
+      } else {
+        window.location.href = this.setupAuthUrl();
+      }
     },
 
     // Called on redirection inside the OAuth dialog window. This indicates,
@@ -74,6 +78,9 @@
         this.onError(params);
       }
     },
+
+    // set to false to redirect to oauth within the same window
+    usePopup: true,
 
     // Detect if we have a successful auth.
     authSuccess: function(params) {
